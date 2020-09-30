@@ -22,3 +22,9 @@ select,
 textarea {
     max-width: 280px;
 }
+
+/* Custom css */
+.message {
+    font-size: 30px;
+    text-decoration: underline;
+}
