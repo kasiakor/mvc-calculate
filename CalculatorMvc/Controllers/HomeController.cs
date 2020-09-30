@@ -11,10 +11,10 @@ namespace CalculatorMvc.Controllers
         public ActionResult Index()
         {
             int firstVal = 10;
-            int secondVal = 20;
-            int result = firstVal / secondVal;
+            int secondVal = 0;
+            int result = firstVal/secondVal;
 
-            ViewBag.Message = "Welcome to my page";
+            //ViewBag.Message = "Welcome to my page";
             return View(result);
         }
     }
